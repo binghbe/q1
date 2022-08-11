@@ -6,16 +6,17 @@
  */
 public class Element<E>
 {
-    E name;
+    boolean students;
+    int cometime;
     Element follower;
+   
 
-    public Element(E name){
-        this.name = name;
+    public Element(boolean isStudent,int time){
+        this.students =isStudent;
+        this.cometime=time;
     }
 
-    public void setName(E name){
-        this.name = name; 
-    }
+   
 
     public void setFollower(Element follower){
         this.follower=follower;

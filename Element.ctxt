@@ -1,10 +1,8 @@
 #BlueJ class context
 comment0.target=Element
 comment0.text=\r\n\ Element\ Class\r\n\r\n\ @author\ bear\r\n\ @version\ 13/05/2022\r\n
-comment1.params=name
-comment1.target=Element(java.lang.Object)
-comment2.params=name
-comment2.target=void\ setName(java.lang.Object)
-comment3.params=follower
-comment3.target=void\ setFollower(Element)
-numComments=4
+comment1.params=isStudent\ time
+comment1.target=Element(boolean,\ int)
+comment2.params=follower
+comment2.target=void\ setFollower(Element)
+numComments=3
